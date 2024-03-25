@@ -1,4 +1,4 @@
-# “More of Life” 
+# [“More of Life”](https://main--nytbrand2023.netlify.app/)
 
 ![alt text](./src/assets/NYT_Sneakers_Gif_Large.gif)
 
