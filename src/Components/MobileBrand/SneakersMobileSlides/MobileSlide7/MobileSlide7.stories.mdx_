@@ -1,0 +1,28 @@
+import { ArgsTable, Canvas, Meta, Story } from "@storybook/addon-docs";
+import MobileSlide7 from "@/LandingPages/Brand/Components/MobileBrand/SneakersMobileSlides/MobileSlide7/MobileSlide7";
+
+<Meta
+  title="Components/MobileSlide7"
+  component={MobileSlide7}
+/>
+
+# MobileSlide7
+
+MobileSlide7 is a section that provides a blurb about subscriptions on the Brand landing page
+
+export const Template = (args) => <MobileSlide7 {...args} />;
+
+### Playground
+
+Experiment with `MobileSlide7` via the Controls addon in the Canvas tab.
+
+<Canvas>
+  <Story
+    name="Default"
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+
+<ArgsTable story="Default" />

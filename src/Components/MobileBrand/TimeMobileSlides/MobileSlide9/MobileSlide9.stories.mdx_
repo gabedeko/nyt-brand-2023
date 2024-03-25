@@ -1,0 +1,28 @@
+import { ArgsTable, Canvas, Meta, Story } from "@storybook/addon-docs";
+import MobileSlide9 from "@/LandingPages/Brand/Components/MobileBrand/MobileSlides/MobileSlide9/MobileSlide9";
+
+<Meta
+  title="Components/MobileSlide9"
+  component={MobileSlide9}
+/>
+
+# MobileSlide9
+
+MobileSlide9 is a section that provides a blurb about subscriptions on the Brand landing page
+
+export const Template = (args) => <MobileSlide9 {...args} />;
+
+### Playground
+
+Experiment with `MobileSlide9` via the Controls addon in the Canvas tab.
+
+<Canvas>
+  <Story
+    name="Default"
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+
+<ArgsTable story="Default" />

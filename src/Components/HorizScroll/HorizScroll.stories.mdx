@@ -1,0 +1,28 @@
+import { ArgsTable, Canvas, Meta, Story } from "@storybook/addon-docs";
+import HorizScrollNew from "@/LandingPages/Brand/Components/HorizScrollNew/HorizScrollNew";
+
+<Meta
+  title="Components/HorizScrollNew"
+  component={HorizScrollNew}
+/>
+
+# HorizScrollNew
+z
+HorizScrollNew is a section that provides a blurb about subscriptions on the Brand landing page
+
+export const Template = (args) => <HorizScrollNew {...args} />;
+
+### Playground
+
+Experiment with `HorizScrollNew` via the Controls addon in the Canvas tab.
+
+<Canvas>
+  <Story
+    name="Default"
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+
+<ArgsTable story="Default" />

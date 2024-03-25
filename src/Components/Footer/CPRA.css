@@ -1,0 +1,26 @@
+a.standaloneCPRAOptOut, a.standaloneCPRACADisclosureNotice, a.standaloneCPRALimitSensitivePI {
+    font-family: "nyt-franklin", arial, helvetica, sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 500;
+    display: block;
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+    transition-duration: .25s;
+    transition-property: border;
+    transition-timing-function: ease-out;
+    width: max-content;
+}
+
+a.standaloneCPRAOptOut:hover, a.standaloneCPRACADisclosureNotice:hover, a.standaloneCPRALimitSensitivePI:hover {
+    border-bottom: 1px solid #000;
+}
+
+
+@media (max-width: 350px) {
+    a.standaloneCPRAOptOut, a.standaloneCPRACADisclosureNotice, a.standaloneCPRALimitSensitivePI {
+        width: 100%;
+    }
+}

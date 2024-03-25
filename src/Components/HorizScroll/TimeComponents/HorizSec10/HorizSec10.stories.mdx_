@@ -1,0 +1,28 @@
+import { ArgsTable, Canvas, Meta, Story } from "@storybook/addon-docs";
+import HorizSec10 from "@/LandingPages/Brand/Components/HorizScroll/GravityComponents/HorizSec10/HorizSec10";
+
+<Meta
+  title="Components/HorizSec10"
+  component={HorizSec10}
+/>
+
+# HorizSec10
+
+HorizSec10 is the horizontal section of the Brand LP
+
+export const Template = (args) => <HorizSec10 {...args} />;
+
+### Playground
+
+Experiment with `HorizSec10` via the Controls addon in the Canvas tab.
+
+<Canvas>
+  <Story
+    name="Default"
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+
+<ArgsTable story="Default" />

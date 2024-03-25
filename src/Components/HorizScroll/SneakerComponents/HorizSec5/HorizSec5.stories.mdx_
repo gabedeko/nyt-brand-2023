@@ -1,0 +1,28 @@
+import { ArgsTable, Canvas, Meta, Story } from "@storybook/addon-docs";
+import HorizSec5 from "@/LandingPages/Brand/Components/HorizontalContainer/HorizSecComponents/HorizSec5/HorizSec5";
+
+<Meta
+  title="Components/HorizSec5"
+  component={HorizSec5}
+/>
+
+# HorizSec5
+
+HorizSec5 is the horizontal section of the Brand LP
+
+export const Template = (args) => <HorizSec5 {...args} />;
+
+### Playground
+
+Experiment with `HorizSec5` via the Controls addon in the Canvas tab.
+
+<Canvas>
+  <Story
+    name="Default"
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+
+<ArgsTable story="Default" />
